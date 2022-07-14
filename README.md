@@ -124,3 +124,9 @@ You might also use an online tool to generate your hash, e.g. https://codebeauti
 
 [heroku]: https://heroku.com/deploy?template=https://github.com/timoschlueter/nightscout-librelink-up
 
+## Build and push
+
+docker buildx build --platform linux/amd64 --load --tag partos/nightscout-librelink-up:latest
+docker push partos/nightscout-librelink-up:latest
+
+
