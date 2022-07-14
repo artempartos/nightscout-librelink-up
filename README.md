@@ -123,3 +123,4 @@ You might also use an online tool to generate your hash, e.g. https://codebeauti
   be converted into a plugin.
 
 [heroku]: https://heroku.com/deploy?template=https://github.com/timoschlueter/nightscout-librelink-up
+
