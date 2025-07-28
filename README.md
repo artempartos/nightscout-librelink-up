@@ -126,7 +126,7 @@ You might also use an online tool to generate your hash, e.g. https://codebeauti
 
 ## Build and push
 
-docker buildx build --platform linux/amd64 --load --tag partos/nightscout-librelink-up:latest .
+docker buildx build --load --tag partos/nightscout-librelink-up:latest .
 docker push partos/nightscout-librelink-up:latest
 
 
